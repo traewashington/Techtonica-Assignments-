@@ -2,8 +2,10 @@ p {
   color: black;
 }
 
+//styles for the body
 body {
   background-color: #f5f3e7; /* soft beige background */
   font-family: "Georgia", serif;
   color: #4a3f35; /* rich brown text */
 }
+
