@@ -31,16 +31,17 @@ p {
   }
 
   .about-cookie {
-  max-width: 600px;
-  margin: 0 auto;
+  width: 500px;
+  margin: 10px;
 }
 
 .about-cookie img {
-  width: 100%;
-  height: auto;
+  width: 600px;
+  height: 50;
+  margin: 10px;
   display: block;
 }
 
 .recipe-layout {
-  display: flex;
+  display: inline-flex;
 }
