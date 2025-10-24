@@ -30,4 +30,14 @@ p {
     font-family: 'Arial', Times, serif;
   }
 
-  
+  .about-cookie {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-cookie img {
+  width: 75%;
+  height: auto;
+  display: block;
+}
+
