@@ -50,7 +50,28 @@
 
 
     <div>
-    
+
+      <script>
+        const myDiv = document.getElementById("myDiv");
+        let checkbox =document.createElement('input');
+        checkbox.type = "checkbox";
+        checkbox.name = "name";
+        checkbox.value = "value";
+        checkbox.id = "id";
+
+        let label = document.createElement('label');
+        label.htmlFor = "id";
+        
+        label.appendChild(
+          document.createTextNode("Creating the label for checkbox")
+      );
+
+      myDiv.appendChild(checkbox);
+      myDiv.appendChild(label);
+
+      </script>
+
+
       <div class="right-side">
         <h3> Ingredients</h3>
           <ul> <p>
@@ -152,5 +173,7 @@
 
 </div>
   </div>
+
+  
 
     
