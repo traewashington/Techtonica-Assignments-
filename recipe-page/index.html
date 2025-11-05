@@ -1,11 +1,18 @@
 <!DOCTYPE html>
   <html lang="en"></html> 
-<DOCTYPE html>
   <head>
+     <title>DOM Manipulation</title>
+     <script> 
+   let newListItem = document.createElement('li');
+      newListItem.textContent = 'Jalapenos';
+      document.querySelector('ul').appendChild(newListItem);
+      </script>
+      </head>
+
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   <title> Walnut Chocolate Chip Cookie Recipe </title>
-    <meta charset= "utf-8">
-      <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title> Walnut Chocolate Chip Cookie Recipe </title>
+           <meta charset= "utf-8">
+               <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   
   <body>
@@ -43,9 +50,6 @@
 
 
     <div>
-      let newListItem = document.createElement('li');
-      newListItem.textContent = 'Jalapenos';
-      document.querySelector('ul').appendChild(newListItem);
     
       <div class="right-side">
         <h3> Ingredients</h3>
@@ -148,3 +152,5 @@
 
 </div>
   </div>
+
+    
