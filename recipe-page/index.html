@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html lang="en"></html> 
+  <html lang="en"> </html>
   <head>
      <title>DOM Manipulation</title>
       </head>
@@ -22,7 +22,7 @@
 </script>
 
   <div class="recipe-layout">
-     <div class="left-side">
+     <div class="left-side"> 
        <div class="about-cookie">
   <p><strong> <center>
     <h2><i>about your new favorite cookie</i></h2>
@@ -32,22 +32,25 @@
 
 
     <div>
+       <div class="left-side"
 <center> 
   <img src="https://i.pinimg.com/1200x/83/38/f2/8338f257d1e9902aa46ba41f8cdab56b.jpg" alt="Walnut Chocolate Chip Cookies" height="500px">
 </center>
 
-<center>
+<div class="left-side"
+<center> 
+  
    <img src=" https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmJpdHJ6ZnNrdHVvb3VxcnJlZzl5bm8wYmgwOWRiZG4xcnRpczF3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2my699ZaYuhRUcjF78/giphy.gif" alt="Walnut Chocolate Chip Cookies Baking" height="600 px">
 </center>
-</body>
 </div>
 
 
     <div>
-      <div class="right-side">
+      
+      <div class="right-side"
         <h3> Ingredients</h3>
 
-          <ul id = "ingredients-list">
+          <ul id = "ingredients">
         <li>2 ¼ cups all-purpose flour</li>
 
         <li>1 tsp baking soda</li>
@@ -73,20 +76,19 @@
              let newListItem = document.createElement('li');
               newListItem.textContent = '1/2 cup brown sugar';
                 document.querySelector('ul').appendChild(newListItem);
- </script> 
-  
+ 
+         
    </div> 
 
-  
+  </script>
     <div>
-     
       <h3>Recipe Details</h3>
-        <ul> <p>
+        <ul> 
           <li>Makes: 24 cookies</li>
           <li>Prep Time: 15 minutes</li>
            <li>Bake Time: 10-12 minutes</li>
            <li>Total Time: 25-30 minutes</li>
-         </p> </ul>
+          </ul>
          
     </div>
  
@@ -156,4 +158,24 @@
 </div>
 
 </div>
+
+<script> 
+  const myDiv = document.getElementById("ingredients");
+  let checkbox =document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.name = "2 large eggs";
+    checkbox.value = "value";
+    checkbox.id = "id";
+
+    let label = document.createElement("label");
+    label.htmlFor = "id";
+
+    label.appendChild(
+      document.createTextNode("checkbox label");
+
+    );
+    myDiv.appendChild(checkbox);
+    myDiv.appendChild(label)
+ </script>
+</body>
   </div>
