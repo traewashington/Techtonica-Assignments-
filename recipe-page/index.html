@@ -8,6 +8,7 @@
         <title> Walnut Chocolate Chip Cookie Recipe </title>
            <meta charset= "utf-8">
                <link rel="stylesheet" type="text/css" href="styles.css" />
+                
   </head>
   
   <body>
@@ -49,8 +50,11 @@
       
       <div class="right-side"
         <h3> Ingredients</h3>
-
           <ul id = "ingredients">
+
+  <li><input type="checkbox" id="item1"><label for="item1">2 ¼ cups all-purpose flour</label></li>
+  <li><input type="checkbox" id="item2"><label for="item2">List Item 2</label></li>
+
         <li>2 ¼ cups all-purpose flour</li>
 
         <li>1 tsp baking soda</li>
@@ -72,15 +76,14 @@
         <li>1 cup chopped walnuts (lightly toasted for extra flavor)</li>
          </ul>
 
-  <script> 
+      <script> 
              let newListItem = document.createElement('li');
               newListItem.textContent = '1/2 cup brown sugar';
                 document.querySelector('ul').appendChild(newListItem);
  
-         
-   </div> 
+        </script>
+    
 
-  </script>
     <div>
       <h3>Recipe Details</h3>
         <ul> 
@@ -89,17 +92,12 @@
            <li>Bake Time: 10-12 minutes</li>
            <li>Total Time: 25-30 minutes</li>
           </ul>
-         
-    </div>
+     </div>
  
   
       
     <div>
-
-        <h3>Directions</h3>
-          
-
-          
+        <h3>Directions</h3> 
          <ol>
            <li>Preheat oven to 350°F (175°C). Line two baking sheets with parchment paper.</li>
            <li>In a medium bowl, combine flour, baking soda, and salt. Set aside.</li>
@@ -158,24 +156,25 @@
 </div>
 
 </div>
-
-<script> 
-  const myDiv = document.getElementById("ingredients");
+      <script> 
+    const myDiv = document.getElementById("myDiv");
   let checkbox =document.createElement("input");
     checkbox.type = "checkbox";
-    checkbox.name = "2 large eggs";
+    checkbox.name = "name";
     checkbox.value = "value";
     checkbox.id = "id";
 
     let label = document.createElement("label");
+
     label.htmlFor = "id";
 
     label.appendChild(
-      document.createTextNode("checkbox label");
-
+      document.createTextNode("checkbox label")
     );
-    myDiv.appendChild(checkbox);
+
+   myDiv.appendChild(checkbox);
     myDiv.appendChild(label)
  </script>
+
 </body>
   </div>
