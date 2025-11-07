@@ -35,8 +35,7 @@ p {
     color: #3B2B1F;
     font-size: 20px;
     font-family: 'Crimson';
-    text-align: center;
-    border: 1px solid brown;
+    text-align: left;
     padding: 10px;
   }
 
@@ -66,15 +65,19 @@ p {
 }
 
 .recipe-layout {
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
-  border: 5px double brown;
+  border: 10px double brown;
 }
 
 .checked {
   text-decoration: line-through;
 }
 
-
+.right-side {
+  float: right;
+  width: 30%;
+  margin: 10px;
+}
 
 
