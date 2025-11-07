@@ -67,7 +67,7 @@ p {
 .recipe-layout {
   margin: 10px;
   padding: 10px;
-  border: 10px double brown;
+ 
 }
 
 .checked {
@@ -76,8 +76,10 @@ p {
 
 .right-side {
   float: right;
-  width: 30%;
-  margin: 10px;
+  width: 50%;
+  margin: 500px;
+  position: absolute;
+   top: 100px;
 }
 
 
