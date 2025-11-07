@@ -15,13 +15,6 @@ body {
 }
 }
 
-p {
-   color: #4A3728; 
-   font-size: 16px;
-    font-family: 'Crimson';
-    text-align: center; 
-  }
-
   h1 {
     color: #3B2B1F;
     font-size: 30px;
@@ -44,7 +37,7 @@ p {
     color: #3b2b1f;
     font-size: 20px;
     font-family: 'Crimson';
-    text-align: center;
+    text-align: left; 
   }
 
   li {
@@ -68,7 +61,7 @@ p {
 .recipe-layout {
   margin: 55px;
   padding: 30px;
-  border: #3B2B1F dotted 5px;
+  border: #3B2B1F double 5px;
  
 }
 
