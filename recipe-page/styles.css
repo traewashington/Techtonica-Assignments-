@@ -63,11 +63,11 @@ p {
   text-decoration: line-through;
 }
 
-@media(min-width: 300px) {
+@media (min-width: 100px) {
   background-color: red;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   background-color: lavender;
 }
 
