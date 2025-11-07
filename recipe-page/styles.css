@@ -1,6 +1,21 @@
 body {
   background-color: burlywood;
+
 }
+
+@media (max-width: 1000px) {
+  body { 
+  background-color: purple;
+  }
+}
+
+@media (min-width: 1300px) {
+  body {
+  background-color: red;
+}
+}
+
+
 
 p {
    color: #4A3728; 
@@ -63,11 +78,5 @@ p {
   text-decoration: line-through;
 }
 
-@media (min-width: 100px) {
-  background-color: red;
-}
 
-@media (max-width: 600px) {
-  background-color: lavender;
-}
 
