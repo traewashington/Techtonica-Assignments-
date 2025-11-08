@@ -33,6 +33,7 @@ body {
     font-family: 'Crimson';
     text-align: left;
     padding: 10px;
+    border: #3B2B1F dotted 5px;
   }
 
   h4 {
