@@ -22,7 +22,7 @@ body {
     font-size: 30px;
     font-family: 'Crimson';
     text-align: center;
-    border: #3B2B1F double 5px;
+    border: #3B2B1F dotted 5px;
     padding: 25px;
     margin: 10px;
   }
